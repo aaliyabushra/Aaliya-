@@ -1,0 +1,153 @@
+/* 1. Global Styling - All Blue Theme */
+body {
+    background-color: #001a33; /* Dark Blue */
+    background-image: linear-gradient(180deg, #002b5c 0%, #000a1a 100%);
+    color: #00d4ff; /* Cyan/Blue text */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 2. Header Style */
+header h1 {
+    font-size: 2rem;
+    color: #ffffff; /* White text is okay, but background stays blue */
+    text-shadow: 0 0 10px #00d4ff;
+    text-align: center;
+}
+
+.description {
+    color: #00aaff;
+    text-align: center;
+    border-bottom: 2px solid #00d4ff;
+    padding-bottom: 5px;
+}
+
+/* 4. Form Card Layout */
+.card-container {
+    width: 100%;
+    max-width: 600px;
+    background-color: #001226; /* Deep Ocean Blue Card */
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #0055ff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    margin-top: 20px;
+}
+
+/* 5. Fieldsets and Legends */
+fieldset {
+    border: 1px solid #003d80;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+legend {
+    color: #00d4ff;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+/* 6. Form Elements (Inputs & Textarea) */
+.field {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.85rem;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #000a1a;
+    border: 1px solid #0055ff;
+    border-radius: 6px;
+    color: #00d4ff;
+    box-sizing: border-box;
+}
+
+/* Focus Border Effect */
+input:focus {
+    outline: none;
+    border-color: #ffffff;
+    box-shadow: 0 0 8px #00d4ff;
+}
+
+/* 7. Button Styling */
+.btn-group {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 12px 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+
+.submit-btn {
+    background-color: #00d4ff;
+    color: #001226;
+}
+
+.submit-btn:hover {
+    background-color: #ffffff;
+    transform: scale(1.05);
+}
+
+.reset-btn {
+    background-color: transparent;
+    border: 1px solid #ff4444;
+    color: #ff4444;
+    margin-left: 10px;
+}
+
+/* 8. Table Styling (Blue Zebra) */
+.blue-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #001a33;
+}
+
+.blue-table th {
+    background-color: #0055ff;
+    color: white;
+    padding: 10px;
+}
+
+.blue-table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #003399;
+}
+
+/* Zebra Stripes */
+.blue-table tbody tr:nth-child(even) {
+    background-color: #000a1a;
+}
+
+.blue-table tbody tr:hover {
+    background-color: #003399;
+}
+
+/* 10. Footer Section */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    background-color: #000a1a;
+    width: 100%;
+    padding: 20px;
+    border-top: 2px solid #00d4ff;
+    color: #0055ff;
+}
